@@ -1,0 +1,125 @@
+/*html {
+	background: #DCDCDC;
+}*/
+.div{
+	font-family: 'Mako', sans-serif;
+}
+div#loginLogo{
+	width: 100%;
+	height: 144px;
+	background-image:url(../images/png/pes-logo-login.png);
+	background-repeat: no-repeat;
+	background-position:center;
+	padding: 0px 0px 20px 0px;
+	}
+div.loginForm {
+    position: relative;
+    width: 235px;
+    margin: 7% auto 0 auto;
+    padding: 30px;
+   	letter-spacing:0.02em;
+	font-size:0.8em;
+	font-family: 'Mako', sans-serif;
+	background-color: #E8E8E8;   /*grey background*/
+}
+
+.lockLogin img { padding-right: 10px; }
+
+.lockLogin { 
+	text-align: center;
+	font-size: 14pt;
+	padding: 10px 0;
+}
+
+p{
+	text-align: left;
+	font-size: 11pt;
+	color: #868789;
+	text-decoration: none;
+	padding:none;
+	margin:8px 0 2px 0;
+}
+p#wrongCredentials{
+	text-align: center;
+	color:red;
+}
+input.login{
+	width: 100%;
+	padding: 0.188em;
+	margin-top:0;
+	border: none;
+	color: #000000;
+}
+input#submit{
+	margin:6% 25% 3% 25%;
+	width: 50%;
+	color: #868789;
+	font-size: 11pt;
+	text-transform: uppercase;
+	letter-spacing:0.04em;
+	border: none;
+	-webkit-box-shadow: 0px 2px 0px 0px rgba(50, 50, 50, 0.3);
+	-moz-box-shadow:    0px 2px 0px 0px rgba(50, 50, 50, 0.3);
+	box-shadow:         0px 2px 0px 0px rgba(50, 50, 50, 0.3);
+}
+input#submit:hover {
+	-webkit-box-shadow: 0px 0px 1px 0px rgba(50, 50, 50, 0.4);
+	-moz-box-shadow:    0px 0px 1px 0px rgba(50, 50, 50, 0.4);
+	box-shadow:         0px 0px 1px 0px rgba(50, 50, 50, 0.4);
+}
+
+input.ui-button { padding: 0.6em; }
+
+div#loginHelp{
+	position:absolute;
+	right:10px;
+	top:10px;
+	background-color:none;
+}
+
+
+div#loginPwReset{
+	position:relative;
+	width: 100%;
+	text-align:center;
+	margin: 0;
+	color: #009899;
+	font-size: 8pt;
+}
+a{
+	text-decoration:none;
+	color: #009899;	
+	}
+
+.version {
+	position: absolute;
+	bottom: 0.2px;
+	left: 238px;
+	padding: 2px 5px;
+	font-size: 7pt;
+	font-weight: thin;
+	-moz-border-radius-topleft: 4px;
+	-webkit-border-top-left-radius: 4px;
+ 	border-top-left-radius: 4px;
+	-moz-border-radius-bottomright: 4px;
+	-webkit-border-bottom-right-radius: 4px;
+	border-bottom-right-radius: 4px;
+	background-color: #34B8B9;
+	color: #FFFFFF;
+}
+
+#informationField {
+	margin-top: 3%;
+	text-align: center;
+	background-color: #FFFFFF;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+}
+
+#informationField p {
+	text-align: center;
+}
+
+
+

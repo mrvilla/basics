@@ -1,0 +1,67 @@
+
+<!DOCTYPE html>
+<html>
+	<head>
+        <title>Movie</title>		
+		
+        <link type="text/css" rel="stylesheet" href="jqTheme/jquery-ui-1.11.2.custom/jquery-ui.css" />
+        <link type="text/css" rel="stylesheet" href="jqgrid/jquery.jqGrid-4.6.0/css/ui.jqgrid.css" />
+                
+		<link type="text/css" rel="stylesheet" href="css/login.tpl.css" />
+		<link type="text/css" rel="stylesheet" href="css/custom.css" />
+		<script type="text/javascript" src="jqgrid/jquery.jqGrid-4.6.0/js/jquery-1.11.0.min.js"></script>
+        <script type="text/javascript" src="jqgrid/jquery.jqGrid-4.6.0/js/jquery.jqGrid.min.js"></script>
+		<script type="text/javascript" src="jqgrid/jquery.jqGrid-4.6.0/js/jquery.jqGrid.src.js"></script>
+		<script type="text/javascript" src="src/js/loginScripts.js"></script>
+	</head>
+
+
+<div id="home">
+	<!--HEADER-->
+	<div id="mainHeader">
+		Header
+	</div>
+
+		<!--CONTENT-->
+		<div id="mainSection">
+
+			<table id="firstGrid"></table> 
+			<div id="firstPagerGrid"></div>
+				<script type="text/javascript"> 
+					jQuery("#firstGrid").jqGrid({ 
+							url:'server.php?q=2', 
+							datatype: "json", 
+							colNames:['#','Title', 'Genres', 'Year'], 
+							colModel:[ 
+									{name:'id',index:'id', width:10, align:"center"}, 
+									{name:'invdate',index:'invdate', width:150, align:"center"}, 
+									{name:'name',index:'name asc, invdate', width:60, align:"center"}, 
+									{name:'amount',index:'amount', width:20, align:"center"},   
+							],
+							autowidth: true, 
+							height: 500,
+							rowNum:10, 
+							rowList:[10,20,30], 
+							pager: '#firstPagerGrid', 
+							sortname: 'id', 
+							viewrecords: true, 
+							sortorder: "desc", 
+							caption:"GRID"
+					}); 
+					jQuery("#firstGrid").jqGrid('navGrid','#firstPagerGrid',{edit:false,add:false,del:false});
+
+				</script>
+		</div>
+
+		<!--FOOTER-->
+	<div id="mainFooter">
+		Footer two
+	</div>
+</div>
+
+        
+   
+	
+
+</html>
+

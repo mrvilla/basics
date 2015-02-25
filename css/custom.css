@@ -1,0 +1,33 @@
+#home {
+	display: block;
+	margin: 0 auto;
+	padding: 0;
+	width: 1010px;
+	overflow: hidden;
+	background: url('../images/shadow_bg.png') repeat scroll 0% 0%;
+}
+#mainHeader {
+	display: block;
+	margin: 0 auto;
+	width: 960px;
+    padding: 5px 25px;
+    text-align: center;
+    border-bottom: 1px solid #6f6f6f;
+}
+#mainSection {
+	display: block;
+	margin: 0 auto;
+	width: 960px;
+	padding: 5px 25px;
+	border-bottom: 1px solid #6f6f6f;
+}
+#mainFooter {
+	display: block;
+	margin: 0 auto;
+	width: 960px;
+	padding: 5px 25px;
+	text-align: center;
+}
+#gbox_firstGrid {
+	margin: 0 auto;
+}
