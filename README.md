@@ -1,3 +1,4 @@
 # Basics
+## Command line
 
-testing thru the command line
+testing the ropes of git thru the command line on windows 
