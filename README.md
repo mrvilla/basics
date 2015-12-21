@@ -1,3 +1,3 @@
-# basics
+# Basics
 
-testing the ropes in repos
+testing thru the command line
